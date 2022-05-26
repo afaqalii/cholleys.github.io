@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="173.043" height="73.551" viewBox="0 0 173.043 73.551">
+  <g id="Group_39" data-name="Group 39" transform="translate(-591 -107)">
+    <text id="Cholley" transform="translate(591 157)" fill="#a2a7aa" font-size="46" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="-0.043em"><tspan x="0" y="0">CHOLLEY</tspan></text>
+    <text id="Suisse" transform="translate(651.256 170.896)" fill="#a2a7aa" font-size="10" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.641em"><tspan x="0" y="0">SUISSE</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(633.838 166.017)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H13V9.289A18.9,18.9,0,0,1,9.97,12.444a16.561,16.561,0,0,1-3.648,2.09,14.744,14.744,0,0,1-3.43-2.059A18.735,18.735,0,0,1,0,9.289Z" fill="#e3231b"/>
+      <path id="Path_2" data-name="Path 2" d="M7.136-30.647h3.2v1.922h-3.2v3.75H5.147v-3.75H1.926v-1.922H5.147v-3.507h1.99Z" transform="translate(0.192 36.449)" fill="#fff"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(757.863 153.398)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff" stroke="#a2a7aa" stroke-width="0.5">
+        <ellipse cx="3.09" cy="3.476" rx="3.09" ry="3.476" stroke="none"/>
+        <ellipse cx="3.09" cy="3.476" rx="2.84" ry="3.226" fill="none"/>
+      </g>
+      <path id="Path_3" data-name="Path 3" d="M1.285-1.294H.673V-.24H.328v-2.6H1.19a1.02,1.02,0,0,1,.677.2.721.721,0,0,1,.237.583.7.7,0,0,1-.131.424.785.785,0,0,1-.366.27L2.218-.262V-.24H1.85ZM.673-1.574H1.2a.6.6,0,0,0,.407-.133.448.448,0,0,0,.151-.355.472.472,0,0,0-.144-.371A.609.609,0,0,0,1.2-2.563H.673Z" transform="translate(1.805 4.873)" fill="#a2a7aa"/>
+    </g>
+  </g>
+</svg>

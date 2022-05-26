@@ -1,0 +1,566 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.brand-name {
+    font-size: 2.5em;
+    color: lightslategrey;
+}
+.nav-link {
+    color: black;
+}
+
+.icons-input i {
+    position: relative;
+}
+.icons-input {
+    margin-left: 1rem;
+    display: flex;
+}
+
+.input-field {
+    border: none;
+    background-color: #ececed;
+    padding: .5rem;
+    padding-left:.2rem;
+}
+.search-icon-menu {
+    padding: .9rem;
+    background-color: #ececed;
+}
+
+.heading {
+    text-align: center;
+}
+
+.item  {
+    height: 700px;
+}
+.instead-of-carousel {
+    display: none;
+}
+.col {
+    margin-left: 1.7rem;
+    text-align: center;
+    background-color: #ecedec;
+    padding: 2rem;
+}
+.col-text {
+    font-size: 1em;
+}
+
+.col > img {
+    width: 80%;
+   height: 190px;
+}
+.row-one {
+    display: flex;
+}
+.again-row-one {
+    display: flex;
+    justify-content: space-evenly;    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container-items {
+    width: 100%;
+}
+
+.col-text {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 1rem;
+}
+
+
+.content > p {
+    text-align: center;
+    color: white;
+
+}
+.best-selling {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("../images/selling.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-size: contain;
+   padding: 3rem 0;
+}
+.content {
+    position: absolute;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   top: 10%;
+}
+.content > h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+.best-selling-images {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.best-selling-images > img {
+    background-color: #ececec;
+    padding: 4rem;
+    margin-left: 4em;
+}
+.selling-items {
+    padding: 6rem 6rem;
+    gap: 2;   
+    background-color: #ecedec;
+}
+.selling-items-2 {
+    padding-left: 7rem ;
+    padding-right: 7rem ;
+}
+
+.skin-care-banner {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url('../images/1-BANNER-HOME-PAGE-PHYTOBIOTECH-dfc24a36a8-1.png');
+    width: 100%;
+    height: 70vh;
+    background-position: cover;
+    background-size: contain;
+    margin-top: 6rem;
+}
+.skin-care-content {
+    text-align:center ;
+    color: white;
+    padding-top: 4rem;
+}
+
+.letter-icon {
+    background-color: darkgray;
+    padding: .7rem;
+}
+.skin-care-heading {
+    margin-top: 7rem;
+}
+.skin-care-p {
+   width: 40%;
+   margin-top: 4em;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+.news-heading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.news-content {
+    margin: 3rem;
+    text-align: center;
+}
+.news-cards {
+    width: 100%;
+    text-align: center;
+}
+.news-cards-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+
+}
+.card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.leaf-banner {
+    background-repeat: no-repeat;
+    background-color: #F8FCFF;
+    display: flex;
+    padding: 5rem;
+}
+.leaf-image {
+    background-image: url("../images/leaf.72f68ed9.png");
+}
+.leaf-banner-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+    width: 100%;
+}
+.cholley > img {
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+.cholley {
+    width: 307px;
+    color: black;
+    font-size: .9em;
+}
+.quick-links {
+  width: 200px;
+}
+.links , .newsletter > h1 {
+    font-size: 24px;
+    font-weight: bold;
+} 
+.product-heading > h1 {
+    text-align: left;
+    font-size: 24px;
+}
+.products {
+    font-weight: 400;
+}
+.links , .products{
+    text-align: left;
+    color: black;
+    font-size: .7em;
+    font-weight: bold;
+}
+.Our-products {
+    width: 253px;
+}
+.newsletter {
+    max-width: 400px;
+    color: black;
+    font-size: .7em;
+}
+.new-letter-form {
+    display: flex;
+}
+.new-letter-form > input {
+    height: 2rem;
+    width: 50%;
+}
+.skin-care-p {
+    line-height: 1.3rem;
+}
+.newsletter > p {
+    line-height: 1.2rem;
+}
+
+.quick-links-heading , .product-heading , .newsletter-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+        background-color: #7D848A;
+        height: 40px;
+}
+.footer-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content > p {
+    margin-top: .4rem;
+    color: white;
+    
+ }
+ .facebook-icon {
+     height: 200px;
+ }
+
+ @media(max-width:800px) {
+     .to-remove {
+         display: none;
+     }
+ }
+ @media (max-width:1020px) {
+    
+    .search-icon {
+        display: none;
+        background-color: #f8f9fa;
+    }
+}
+
+
+/*  *****************MEDIA QUERY AT  768 PX  ******************* */ 
+
+
+
+ @media (max-width:800px) {
+
+  .search-icon {
+      background-color: #f8f9fa;
+  }
+ .carousel-main-content {
+    display: none;
+
+ }
+
+.instead-of-carousel {
+    width: 100%;
+    display: block;
+    height: 10vh;
+    margin-bottom: 70rem;
+}
+.instead-of-carousel > img {
+    width: 100%;
+}
+
+.arrival-items-image {
+    display: none;
+}
+.heading > h1 {
+    font-weight: bold;
+}
+.container  {
+    margin-bottom: 0;
+}
+.container-items {
+    margin-top: 0;
+}
+.row-one {
+    margin-top: 0;
+    padding: 1rem;
+
+}
+
+.again-row-one {
+    display: grid;
+    grid-template-columns:   1fr  1fr;
+}
+.col > img  {
+    text-align: center;
+    width: 70px;
+    margin-top: 4rem;
+
+}
+.col {
+ width: 290px;
+ height: 390px;
+ }
+ 
+ .best-selling  {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("/images/bestselling.png");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 80vh;
+}
+.content > h1{
+    font-size: 2rem;
+}
+.best-selling-images {
+    height: 300px;
+    width: 100%;
+    margin-top: 10rem ;
+    margin-left: -2rem;
+}
+ .skin-care-banner {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("/images/tablet.png")
+
+} 
+.skin-care-heading {
+    line-height: 3rem;
+}
+.skin-care-p {
+    margin-top: 1.5rem;
+    width: 90%;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+.news-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.leaf-banner {
+    background-image: none;
+    padding: 0;
+}
+.leaf-banner-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+}
+
+.cholley > p , .links > p , .products > p  {
+    font-weight: 400;
+    font-size: .7rem;
+
+}
+.cholley > p {
+    width: 70%;
+    letter-spacing: .01rem;
+}
+.quick-links , .Our-products , .newsletter {
+    margin-top:  2rem;
+
+}
+.newsletter > p {
+    font-size: .6rem;
+}
+.links , .products {
+    color: #1D1D1D;
+    font-weight: 400;
+    line-height: .9rem;
+
+}
+.cholley > h1 , .quick-links > h1 , .Our-products > h1, .newsletter > h1 {
+    font-size: 1rem;
+}
+.news-cards-images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.card {
+    display: flex;
+    width:100%;
+    margin: auto;
+   
+}
+
+ }
+
+
+
+/*  *****************MEDIA QUERY AT  400 PX  ******************* */ 
+ 
+
+
+@media (max-width:400px) {
+    .carousel-main-content {
+        display: none;
+    }
+    .instead-of-carousel {
+        display: block;
+        height: 10vh;
+        margin-bottom: 30rem;
+    }
+    .instead-of-carousel > img {
+        width: 100%;
+    }
+
+    .arrival-items-image {
+        display: none;
+    }
+    .heading > h1 {
+        font-weight: bold;
+    }
+    .container  {
+        margin-bottom: 0;
+    }
+    .container-items {
+        margin-top: 0;
+    }
+    .row-one {
+        margin-top: 0 ;
+    }
+    .again-row-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col > img  {
+        margin-top: 4rem;
+        text-align: center;
+        width: 100px;
+        height: 235px;
+
+    }
+    .col {
+     margin-left: 0;
+     width: 311px;
+     height: 415px;
+     }
+     .col-text {
+         font-size: 1rem;
+     }
+     
+     .best-selling  {
+      background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("../images/bestselling.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100vh;
+    }
+    .content > h1{
+        font-size: 2rem;
+    }
+    .best-selling-images {
+        width: 100%;
+        margin-top: 10rem ;
+        margin-left: -2rem;
+    }
+     .skin-care-banner {
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("../images/mobile-front.png");
+    } 
+    .skin-care-heading {
+        line-height: 3rem;
+    }
+    .skin-care-p {
+        margin-top: 1.5rem;
+        width: 90%;
+        line-height: 2rem;
+        font-size: 1.4rem;
+    }
+    .to-remove {
+        display: none;
+    }
+    .news-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leaf-banner {
+        background-image: none;
+        padding: 0;
+    }
+    .leaf-banner-content {
+         display: flex;
+         flex-direction: column;
+         text-align: left;
+         margin: 0 auto;      
+         padding: 0;
+    }
+    
+    .cholley > p , .links > p , .products > p  {
+        font-weight: 400;
+        font-size: .9rem;
+
+    }
+    .quick-links , .Our-products , .newsletter {
+        margin-top:  2rem;
+
+    }
+    .newsletter > p {
+       font-size: .9rem;
+       line-height: 1.2rem;
+    }
+    .links {
+        color: #1D1D1D;
+        font-weight: 400;
+
+    }
+    .cholley , .quick-links , .Our-products , .newsletter {
+        margin-left: 2rem;
+    }
+    .news-cards-images {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card {
+        display: flex;
+        width:100%;
+        margin: auto;
+       
+    }
+}
+
+
+
+
+
+
+
+
